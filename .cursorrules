@@ -75,6 +75,7 @@
 - Use scene inheritance for reusable components
 - Implement proper scene cleanup on queue_free()
 - Use SubViewport nodes carefully due to performance impact
+- Provide step-by-step instructions to create Godot scene(s) instead of providing scene source code
 
 
 ## Error Handling
