@@ -59,6 +59,7 @@
 - Keep methods focused and under 30 lines when possible
 - Use meaningful variable and function names
 - Group related properties and methods together
+- Use tabs for indentation instead of spaces
 
 
 # Testing Guidelines
