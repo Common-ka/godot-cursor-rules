@@ -1,8 +1,0 @@
----
-alwaysApply: true
----
-
-- Implement graceful fallbacks for missing resources
-- Use assert() for development-time error checking
-- Log errors appropriately in production builds
-- Handle network errors gracefully in multiplayer games

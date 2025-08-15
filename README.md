@@ -11,28 +11,19 @@ Cursor rules allow you to customize the behavior of Cursor AI to follow specific
 
 ## Project Structure
 
-This repository provides rules in two formats for maximum compatibility:
+This repository provides rules in the modern `.cursor/rules/` directory format:
 
 ### Modern Format: `.cursor/rules/` Directory
-- **Recommended approach** for new projects
+- **Recommended approach** for all projects
 - Organized into focused rule files by category
 - Better maintainability and organization
 - Follows current Cursor best practices
 
-### Legacy Format: `.cursorrules` File
-- **Backward compatibility** for existing projects
-- Single file containing all rules
-- Still supported but deprecated
-
 ## How to Use
 
-### Option 1: Modern Rules (Recommended)
+### Modern Rules Setup
 1. Copy the `.cursor` folder to your Godot 4.4 project root
 2. Cursor AI will automatically use the organized rule files
-
-### Option 2: Legacy Rules
-1. Download the `.cursorrules` file from this repository
-2. Place it in the root directory of your Godot 4.4 project
 
 ## What's Included
 
@@ -99,19 +90,13 @@ This repository provides rules in two formats for maximum compatibility:
 - Navigation map access methods
 - Layer-specific property management
 
-## Migration Guide
-
-If you're currently using the `.cursorrules` file, consider migrating to the modern `.cursor/rules` system:
-
-1. Copy the `.cursor` folder to your project
-2. Remove the old `.cursorrules` file
-3. Enjoy better organization and maintainability
-
 ## Note on Cursor Rules Evolution
 
 According to the [Cursor documentation](https://docs.cursor.com/context/rules-for-ai):
 
 > For backward compatibility, you can still use a `.cursorrules` file in the root of your project. We will eventually remove .cursorrules in the future, so we recommend migrating to the new Project Rules system for better flexibility and control.
+
+This repository follows the modern approach using the `.cursor/rules` directory system for better organization and maintainability.
 
 ---
 
