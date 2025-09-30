@@ -1,7 +1,7 @@
 
 # Godot 4.5 Game Development Rules for Cursor AI
 
-This repository contains comprehensive development rules designed to enhance your Godot 4.4 game development experience when using [Cursor AI](https://docs.cursor.com/context/rules-for-ai).
+This repository contains comprehensive development rules designed to enhance your Godot 4.5 game development experience when using [Cursor AI](https://docs.cursor.com/context/rules-for-ai).
 
 ## What are Cursor Rules?
 
@@ -22,7 +22,7 @@ This repository provides rules in the modern `.cursor/rules/` directory format:
 ## How to Use
 
 ### Modern Rules Setup
-1. Copy the `.cursor` folder to your Godot 4.4 project root
+1. Copy the `.cursor` folder to your Godot 4.5 project root
 2. Cursor AI will automatically use the organized rule files
 
 ## What's Included
@@ -84,7 +84,7 @@ This repository provides rules in the modern `.cursor/rules/` directory format:
 - Production-appropriate error logging
 - Network error handling for multiplayer
 
-### TileMap Implementation (Godot 4.4)
+### TileMap Implementation (Godot 4.5)
 - TileMap node deprecation notes
 - TileMapLayer usage guidelines
 - Navigation map access methods
