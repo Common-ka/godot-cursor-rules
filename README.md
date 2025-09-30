@@ -1,5 +1,5 @@
 
-# Godot 4.4 Game Development Rules for Cursor AI
+# Godot 4.5 Game Development Rules for Cursor AI
 
 This repository contains comprehensive development rules designed to enhance your Godot 4.4 game development experience when using [Cursor AI](https://docs.cursor.com/context/rules-for-ai).
 
